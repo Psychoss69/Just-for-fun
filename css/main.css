@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+}
+
+header{
+    display: block;
+    width: 60px;
+    height: 100vh;
+    background-color: #333;
+    position: fixed;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    display: inline-block;
+    font-size: 26px;
+    color: #FFF;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.main{
+    display: inline-block;
+    width: calc((100% - 60px) / 2);
+    height: 100vh;
+    background-color: #000000;
+    margin-left: calc(60px);
+}
+.menu{
+    display: block;
+    min-height: calc(100vh - 80px);
+    width: calc((100% - 80px) / 2);
+    margin-left: calc(((100% - 80px) / 2) + 80px);
+    background-color: green;
+
+}
